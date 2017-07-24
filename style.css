@@ -85,13 +85,17 @@ header{
 #main_content {
   background-color: #ddffff;
   padding: 20px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 #sidebar_content {
-  background-color: #ffffdd;
-  padding: 20px;
   margin-bottom: 10px;
+}
+
+#sidebar_content div {
+  margin: 15px 0px 15px 0px;
+  background-color: #ffffdd;
+  padding: 10px 15px 10px 15px;
 }
 
 #site_footer {
